@@ -1,0 +1,955 @@
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1800px) {}
+
+@media screen and (max-width: 1700px) {}
+
+@media screen and (max-width: 1600px) {
+    .lorem_main {
+        gap: 54px;
+    }
+
+    .lorem_img2 {
+        right: -53px;
+    }
+
+    .web-logo {
+        padding: 70px 0px 100px;
+    }
+
+    h1 {
+        font-size: 76px;
+    }
+
+    h2 {
+        font-size: 56px;
+    }
+
+    h3 {
+        font-size: 46px;
+    }
+
+    .score-main {
+        padding: 80px 0px 180px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .lorem_main {
+        padding: 70px 0px 100px;
+    }
+
+    h1 {
+        font-size: 74px;
+    }
+
+    .web-logo {
+        padding: 60px 0px 90px;
+    }
+
+    .about-us-main {
+        gap: 50px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 52px;
+    }
+
+    h3 {
+        font-size: 42px;
+    }
+
+    .score-main {
+        padding: 70px 0px 160px;
+    }
+
+    .clients-contain {
+        padding: 60px 0px;
+    }
+
+    .client-main2 {
+        padding: 30px 0px 100px 0px;
+    }
+
+    .main-frequentliy-qa,
+    .contact-us-section {
+        padding: 100px 0px;
+        gap: 60px;
+    }
+
+    .footer-section {
+        padding: 50px 0px 80px;
+    }
+
+    .container {
+        padding: 0px 45px;
+    }
+
+    .service-main {
+        gap: 40px;
+    }
+
+    .service-img {
+        gap: 25px;
+    }
+
+    .heading-4 {
+        padding: 20px;
+    }
+
+    .our-service {
+        width: 39%;
+    }
+
+    .contact-us-main {
+        gap: 60px;
+    }
+
+    .on-point-marketing-img {
+        margin-bottom: -60px;
+    }
+
+    .cilent-main1 {
+        gap: 150px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .score-main {
+        padding: 70px 0px 140px;
+        gap: 40px;
+    }
+
+    .experience {
+        width: calc((100% - (40px * 3)) / 4);
+    }
+
+    .heading-4 h5 {
+        font-size: 22px;
+    }
+
+    .box3 {
+        gap: 50px;
+    }
+
+    .main-frequentliy-qa,
+    .contact-us-section {
+        padding: 90px 0px;
+        gap: 40px;
+    }
+
+    .contact-us-main {
+        gap: 40px;
+    }
+
+    .lorem_img2 {
+        right: -45px;
+    }
+
+    .client-main-3 {
+        gap: 50px
+    }
+
+    .client-main2 {
+        padding: 30px 0px 90px 0px;
+        gap: 30px;
+    }
+
+    .client-box {
+        padding: 24px;
+    }
+
+    .main-frequentliy-qa,
+    .contact-us-section {
+        padding: 80px 0px;
+        gap: 30px;
+    }
+
+    .contact-us-main {
+        gap: 30px;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    h1 {
+        font-size: 68px;
+    }
+
+    h3 {
+        font-size: 38px;
+    }
+
+    .cilent-main1 {
+        gap: 140px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navlinks {
+        position: fixed;
+        top: 0;
+        right: 0;
+        flex-direction: column;
+        background: var(--dark-blue);
+        width: 100%;
+        height: 110vh;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 999;
+        transition: all 0.4s ease;
+        transform: translateX(100%);
+    }
+
+    .navlinks.active {
+        opacity: 1;
+        pointer-events: auto;
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px;
+        background: #EFF6FF;
+        z-index: 1;
+        transform: translateX(0);
+    }
+
+    .header-logo a {
+        position: relative;
+        z-index: 2;
+    }
+
+    .navlinks ul {
+        flex-direction: column;
+        gap: 30px;
+        margin: 0px auto;
+        align-items: flex-start;
+    }
+
+    .no-scroll .hamburger span:after {
+        transform: rotate(-45deg);
+        top: -1px;
+        background: var(--white);
+    }
+
+    .no-scroll .header-logo .color-logo {
+        display: none;
+    }
+
+    .no-scroll .hamburger-logo {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger span {
+        display: block;
+        height: 2px;
+        background-color: #005eb8;
+        ;
+        border-radius: 2px;
+        transition: 0.4s ease;
+    }
+
+    .no-scroll .hamburger span {
+        background-color: #005eb8;
+    }
+
+    .logo {
+        width: 18%;
+    }
+
+    .f-logo {
+        width: 60%;
+    }
+
+    .lorem_main {
+        padding: 50px 0px 85px;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 64px;
+        line-height: 85px;
+    }
+
+    .web-logo {
+        padding: 40px 0px 70px;
+    }
+
+    .about-us-main {
+        gap: 40px;
+        flex-direction: column-reverse;
+    }
+
+    .our-service,
+    .contact-us {
+        width: 100%;
+        gap: 25px;
+    }
+
+    h3 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .lorem_img,
+    .about-us-img-contain {
+        width: 60%;
+    }
+
+    h2 {
+        font-size: 44px;
+        line-height: 60px;
+    }
+
+    .score-main {
+        padding: 60px 0px 120px;
+        gap: 30px;
+    }
+
+    .experience {
+        width: calc((100% - (30px * 3)) / 4);
+        padding: 25px;
+    }
+
+    .service-main {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 0px 40px;
+    }
+
+    .cilent-main1 {
+        gap: 100px;
+    }
+
+    .client-1 {
+        width: 40%;
+    }
+
+    .client-box {
+        padding: 20px;
+        gap: 15px;
+    }
+
+    .client-3 {
+        width: 39%;
+    }
+
+    .client-2 {
+        width: 100%;
+    }
+
+    .pra {
+        gap: 10px;
+    }
+
+    .client-4 {
+        width: 57%;
+    }
+
+    .main-frequentliy-qa,
+    .contact-us-section {
+        padding: 70px 0px;
+        flex-direction: column;
+    }
+
+    .frequently-contain {
+        width: 100%;
+    }
+
+    .contact-us-main {
+        flex-direction: column;
+    }
+
+    .footer-details {
+        width: 70%;
+    }
+
+    .contact-details {
+        gap: 24px;
+        flex-direction: row;
+    }
+
+    .on-point-marketing-img {
+        margin-bottom: -40px;
+    }
+
+    h4 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0px 35px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .btn {
+        padding: 10px 18px;
+    }
+
+    .lorem_containt {
+        gap: 20px;
+    }
+
+    .lorem_main {
+        padding: 30px 0px 70px;
+    }
+
+    .web-logo {
+        padding: 30px 0px 60px;
+    }
+
+    .comman-btn {
+        padding: 8px 16px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .experience {
+        width: calc((100% - (20px * 3)) / 4);
+        padding: 20px;
+    }
+
+    .score-main {
+        padding: 50px 0px 90px;
+        gap: 20px;
+    }
+
+    .experience:nth-child(even) {
+        margin-top: 35px;
+    }
+
+    .clients-contain {
+        padding: 45px 0px;
+        width: 46%;
+        gap: 10px;
+    }
+
+    .cilent-main1 {
+        gap: 80px;
+    }
+
+    .client-1 {
+        width: 45%;
+    }
+
+    .client-main2 {
+        padding: 25px 0px 70px 0px;
+        gap: 20px;
+    }
+
+    .client-4 {
+        width: 58%;
+    }
+
+    .main-frequentliy-qa,
+    .contact-us-section {
+        padding: 60px 0px;
+    }
+
+    .form_details {
+        gap: 18px;
+    }
+
+    .footer-section {
+        padding: 40px 0px 70px;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-details {
+        width: 100%;
+    }
+
+    .footer-logo {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .f-logo {
+        width: 20%;
+    }
+
+    .heading p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .lorem_img1 {
+        left: -75px;
+    }
+
+    .lorem_img3 {
+        left: -40px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        font-size: 54px;
+        line-height: 75px;
+    }
+
+    .btn {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .web-logo {
+        padding: 20px 0px 45px;
+    }
+
+    h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .experience {
+        width: calc((100% - (20px * 1)) / 2);
+    }
+
+    .experience:nth-child(even) {
+        margin-top: 0px;
+    }
+
+    .score-main {
+        padding: 40px 0px 75px;
+    }
+
+    .cilent-main1 {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .client-1,
+    .client-3,
+    .client-4 {
+        width: 100%;
+    }
+
+    .client-main2 {
+        flex-direction: column;
+    }
+
+    .client-main-3 {
+        gap: 20px;
+    }
+
+    .main-frequentliy-qa,
+    .contact-us-section {
+        padding: 50px 0px;
+    }
+
+    .contact a {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    h4 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .social {
+        width: 35px;
+        height: 35px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    .copy-right {
+        padding: 12px;
+    }
+
+    .clients-contain {
+        width: 100%;
+        padding: 30px 0px;
+    }
+
+    .fqa-main .heading img {
+        width: 15px;
+        height: 10px;
+    }
+
+    .form_btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        padding: 0px 30px;
+    }
+
+    .navbar-main {
+        padding: 10px 0px;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .lorem_img,
+    .about-us-img-contain {
+        width: 85%;
+    }
+
+    .about-us-img2 {
+        bottom: 50px;
+        left: -70px;
+    }
+
+    h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .number {
+        margin: 18px;
+        padding: 14px 20px;
+        font-size: 18px;
+    }
+
+    .service-img {
+        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .box2,
+    .box3 {
+        gap: 40px;
+    }
+
+    .cilent-main1 {
+        gap: 5px;
+    }
+
+    .client-main2 {
+        padding: 20px 0px 55px 0px;
+    }
+
+    .main-frequentliy-qa,
+    .contact-us-section {
+        padding: 40px 0px;
+    }
+
+    .qa-1 {
+        gap: 30px;
+    }
+
+    .our-service,
+    .contact-us {
+        gap: 15px;
+    }
+
+    .form_details {
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .footer-details {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .footer-section {
+        padding: 30px 0px 55px;
+        gap: 30px;
+    }
+
+    .f-logo {
+        width: 28%;
+    }
+
+    .social-connection,
+    .social-logo {
+        gap: 12px;
+    }
+
+    .on-point-marketing-img {
+        margin-bottom: -20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hamburger {
+        height: 16px;
+        width: 26px;
+    }
+
+    h1 {
+        font-size: 42px;
+        line-height: 55px;
+    }
+
+    .container {
+        padding: 0px 25px;
+    }
+
+    .lorem_img1 {
+        left: -55px;
+        top: -12px;
+    }
+
+    .lorem_img3 {
+        left: -30px;
+    }
+
+    .lorem_main {
+        padding: 20px 0px 50px;
+        gap: 40px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+
+    .comman-btn {
+        padding: 6px 12px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .about-us-img2 {
+        bottom: 35px;
+        left: -50px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .contact-details {
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .full_name {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .social {
+        width: 30px;
+        height: 30px;
+        padding: 6px;
+    }
+
+    .copy-right p {
+        font-size: 14px;
+    }
+
+    .copy-right {
+        padding: 8px;
+    }
+
+    .footer-section {
+        padding: 30px 0px 45px;
+        gap: 25px;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(-6px, 4px);
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(6px, -16px);
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .navbar-main {
+        padding: 6px 0px;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .lorem_main {
+        padding: 15px 0px 40px;
+        gap: 30px;
+    }
+
+    .lorem_img1 {
+        left: -40px;
+        top: -8px;
+    }
+
+    .lorem_img2 {
+        right: -30px;
+        top: 35px;
+    }
+
+    .lorem_img3 {
+        left: -22px;
+    }
+
+    .lorem_img,
+    .about-us-img-contain {
+        width: 91%;
+    }
+
+    .web-logo {
+        padding: 20px 0px 35px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .about-us-main-contain {
+        gap: 20px;
+    }
+
+    .about-us-main {
+        gap: 30px;
+    }
+
+    .about-us-img1 {
+        top: 10px;
+        right: -25px;
+    }
+
+    .about-us-img2 {
+        bottom: 30px;
+        left: -40px;
+    }
+
+    .score-main {
+        padding: 35px 0px 55px;
+    }
+
+    .experience {
+        width: calc((100% - (20px * 0)) / 1);
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .container {
+        padding: 0px 20px;
+    }
+
+    .client-box {
+        padding: 15px;
+    }
+
+    .heading {
+        padding: 12px;
+    }
+
+    .f-logo {
+        width: 35%;
+    }
+
+    .footer-details {
+        gap: 35px;
+        justify-content: flex-start;
+    }
+
+    .on-point-marketing-img {
+        margin-bottom: -10px;
+    }
+
+    .footer-section {
+        padding: 30px 0px 35px;
+    }
+
+    .contact img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact-details {
+        gap: 12px;
+    }
+
+    .heading-4 h5 {
+        font-size: 20px;
+    }
+
+    .heading-4 p {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .contact a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .number {
+        margin: 12px;
+        padding: 10px 16px;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 374px) {}
